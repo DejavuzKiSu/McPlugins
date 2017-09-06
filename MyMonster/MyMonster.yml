@@ -1,0 +1,11 @@
+main: MyPlugins.MyMonster
+name: MyMonsters
+version: 1.0
+author: me
+description: An Example
+commands:
+  sp:
+    description: An example command
+    usage: /sp
+    permission: MyPlugins.sp
+    permission-message: You don't have the myplugin.mycommand permission.
